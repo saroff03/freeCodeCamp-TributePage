@@ -42,3 +42,9 @@ table {
 .tr-heading {
   font-weight: bold;
 }
+
+#rmButton { 
+  float: initial;
+  background-color: #d0af50 !important;
+  color: white !important;
+}
