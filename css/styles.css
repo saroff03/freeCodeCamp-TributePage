@@ -1,0 +1,44 @@
+body{
+  background-color: #222;
+  color: white;
+}
+
+#yellowBar {
+  min-height: 0.5rem;
+  background-color: #d0af50;
+}
+
+#bg {
+  background-color: #222;
+}
+
+#mainImg {
+  max-width: 25rem;
+}
+
+.navbar {
+  background-color: #222;
+}
+
+a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+button {
+  background-color: white !important;
+  float: right;
+}
+
+section {
+  border-bottom: 0.5rem solid #d0af50;
+}
+
+table {
+  border-bottom: 1px solid white !important;
+  color: white !important;
+}
+
+.tr-heading {
+  font-weight: bold;
+}

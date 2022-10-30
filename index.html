@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Hristo Stoichkov Tribute's Page">
+  <meta name="keywords" content="HTML, CSS, Tribute, Page, Hristo, Stoichkov, Bulgarian, Legend">
+  <meta name="author" content="Stoyan Sarov">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <!--Bootstrap CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Hristo Stoichkov's Tribute Page</title>
+</head>
+<body>
+<!--Yellow Bar at the top of the screen-->
+<div class="container-fluid" id="yellowBar"></div>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a href="index.html" class="navbar-brand d-sm-block d-lg-none">
+      <img src="/images/logo.png" alt="logo" id="logo" class="img-fluid" height="40">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" id="btn1">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav mx-auto ms-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#yellowBar">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#videoGallery">VIDEO GALLERY</a>
+        </li>
+        <img class="d-none d-lg-block" id="logo" src="images/logo.png" alt="logo" height="40px">
+        <li class="nav-item">
+          <a class="nav-link" href="#clubHistory">CLUB HISTORY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://8hristo.com/" target="_blank">OFFICIAL WEBSITE</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Main Area-->
+<section class="d-flex">
+
+  <div class="container d-flex">
+    <div class="container" id="bg">
+      <img class="img-fluid d-none d-lg-block" id="mainImg" src="images/hristo-stoichkov.png" alt="Hristo Stoichkov holding the golden ball">
+      <img class="d-sm-block d-lg-none" src="images/small-hs.png" alt="Hristo Stoichkov" width="200px">
+    </div>
+
+    <div class="container text-center pt-5">
+      <h1>HRISTO STOICHKOV</h1>
+      <h2>The Dagger</h2>
+      <p class="lead">Hristo Stoichkov is a Bulgarian former professional footballer. A prolific forward, he is regarded as one of the best players of his generation and is regarded as the greatest Bulgarian footballer of all time.</p>
+    </div>
+  </div>
+</section>
+
+
+<!--Video Gallery-->
+<section id="videoGallery">
+  <div class="container mt-4 text-center">
+    <h1 class="mb-4">Video Gallery</h1>
+    <div class="row text-center mb-4">
+      <div class="col-md">
+        <iframe src="https://www.youtube.com/embed/WE5SHXEMtCM" allowfullscreen></iframe>
+      </div>
+      <div class="col-md">
+        <iframe src="https://www.youtube.com/embed/nRN-Wc3heGY" allowfullscreen></iframe>
+      </div>
+      <div class="col-md">
+        <iframe src="https://www.youtube.com/embed/RUOwYjEiQ94" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Club History-->
+<section id="clubHistory">
+  <div class="container mt-3">
+    <table class="table">
+      <tr class="tr-heading">
+        <td>Years</td>
+        <td>Team</td>
+        <td>Appearances</td>
+        <td>Goals</td>
+      </tr>
+      <tr>
+        <td>1977-1981</td>
+        <td>Maritsa Plovdiv</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>1982-1984</td>
+        <td>FC Hebros</td>
+        <td>32</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>1984-1990</td>
+        <td>CSKA Sofia</td>
+        <td>119</td>
+        <td>81</td>
+      </tr>
+      <tr>
+        <td>1990-1995</td>
+        <td>FC Barcelona</td>
+        <td>151</td>
+        <td>76</td>
+      </tr>
+      <tr>
+        <td>1995-1996</td>
+        <td>Parma</td>
+        <td>23</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1996-1998</td>
+        <td>FC Barcelona</td>
+        <td>24</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>1998</td>
+        <td>Al-Nassr</td>
+        <td>2</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1998-1999</td>
+        <td>Kashiwa Reysol</td>
+        <td>27</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>2000-2002</td>
+        <td>Chicago Fire</td>
+        <td>51</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>2003</td>
+        <td>D.C United</td>
+        <td>21</td>
+        <td>5</td>
+      </tr>
+      <tr class="tr-heading">
+        <td>Total</td>
+        <td></td>
+        <td>454</td>
+        <td>220</td>
+      </tr>
+      </table>
+  </div>
+</section>
+
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
